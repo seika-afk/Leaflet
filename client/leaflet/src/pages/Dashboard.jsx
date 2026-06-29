@@ -154,7 +154,7 @@ export default function Dashboard() {
                   setShowModal(false);
                   setError("");
                 }}
-                className="flex-1 rounded-sm border border-neutral-800 px-4 py-3 text-sm text-neutral-500 hover:border-neutral-600 hover:text-neutral-400 transition cursor-pointer active:scale-95[...]
+                className="flex-1 rounded-sm border border-neutral-800 px-4 py-3 text-sm text-neutral-500 hover:border-neutral-600 hover:text-neutral-400 transition cursor-pointer active:scale-95"
               >
                 Cancel
               </button>

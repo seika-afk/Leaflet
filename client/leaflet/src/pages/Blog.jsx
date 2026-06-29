@@ -65,7 +65,7 @@ export default function Blog() {
 
         <div className="h-px w-12 bg-neutral-700 mb-12" />
 
-        <div className="prose prose-invert prose-neutral max-w-none prose-p:text-neutral-400 prose-p:leading-8 prose-headings:text-neutral-200 prose-headings:bitText prose-code:text-neutral-300 pr[...]
+        <div className="prose prose-invert prose-neutral max-w-none prose-p:text-neutral-400 prose-p:leading-8 prose-headings:text-neutral-200 prose-headings:bitText prose-code:text-neutral-300 prose-strong:text-neutral-300 prose-a:text-neutral-400 prose-a:underline-offset-4">
           <ReactMarkdown>{blog.content}</ReactMarkdown>
         </div>
       </div>
