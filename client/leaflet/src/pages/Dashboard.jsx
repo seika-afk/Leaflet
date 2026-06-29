@@ -11,7 +11,7 @@ export default function Dashboard() {
   const fileRef = useRef();
 
   useEffect(() => {
-    fetch("http://localhost:3001/notes/blogs", { credentials: "include" })
+    fetch("https://leaflet-iywf.onrender.com/notes/blogs", { credentials: "include" })
       .then((r) => r.json())
       .then(setBlogs)
       .catch(console.error);
@@ -28,7 +28,7 @@ export default function Dashboard() {
 
   const handleCreate = async () => {
     try {
-      const res = await fetch("http://localhost:3001/notes/blogs", {
+      const res = await fetch("https://leaflet-iywf.onrender.com/notes/blogs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",
@@ -154,7 +154,7 @@ export default function Dashboard() {
                   setShowModal(false);
                   setError("");
                 }}
-                className="flex-1 rounded-sm border border-neutral-800 px-4 py-3 text-sm text-neutral-500 hover:border-neutral-600 hover:text-neutral-400 transition cursor-pointer active:scale-95"
+                className="flex-1 rounded-sm border border-neutral-800 px-4 py-3 text-sm text-neutral-500 hover:border-neutral-600 hover:text-neutral-400 transition cursor-pointer active:scale-95[...]
               >
                 Cancel
               </button>
